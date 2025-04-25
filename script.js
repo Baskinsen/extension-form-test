@@ -1,4 +1,4 @@
-document.getElementById("applyButton").addEventListener("click", () => {
+document.getElementById("apply-button").addEventListener("click", () => {
   const EXTENSION_ID = "your_extension_id";
 
   chrome.runtime.sendMessage(
